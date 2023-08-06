@@ -1,0 +1,79 @@
+main {
+  flex-grow: 1;
+}
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__content {
+  margin-right: 12.5rem;
+}
+.hero__title {
+  margin-bottom: 2.4rem;
+  font-size: 45px;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.hero__description {
+  color: #7b8bad;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+.hero__link-second {
+  color: $textcolor;
+}
+.hero__link-second:hover {
+  color: $white-color;
+  background-color: $dark-green-color;
+}
+.hero__link-second:active {
+  background-color: #fff;
+  color: $dark-green-color;
+}
+// Section keyboards
+.mechanical-keyboards {
+  margin-top: 2rem;
+}
+.keyboards__wrapper {
+  display: flex;
+  align-items: center;
+}
+.keyboard__content {
+  margin-left: 10rem;
+}
+.hkeyboard__content__title {
+  margin-bottom: 3rem;
+}
+// End
+// Section
+.cards {
+  margin-top: 15rem;
+  margin-bottom: 12.6rem;
+}
+.cards__wrapper {
+  display: flex;
+  gap: 90px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 323px;
+}
+.cards__img {
+  margin-bottom: 4.8rem;
+}
+.card__title {
+  margin-bottom: 2.4rem;
+}
+.card__description {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+// End

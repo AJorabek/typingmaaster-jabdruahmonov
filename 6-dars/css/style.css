@@ -1,0 +1,267 @@
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 2px dotted #162542;
+  outline-offset: 4px;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.btn {
+  padding: 1.6rem 2.7rem;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.btn-orange {
+  background-color: #f16718;
+  color: #ffffff;
+}
+
+.btn-orange:hover {
+  background-color: #ff9b62;
+  transition: 0.3s;
+}
+
+.btn-dark {
+  background-color: #e8eff2;
+  color: #162542;
+}
+
+.btn-dark:hover {
+  background-color: #162542;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+h1 {
+  color: #7b8bad;
+  background-color: #7b8bad;
+  display: flex;
+  justify-content: center;
+}
+
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/barlow-v12-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/barlow-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/barlow-v12-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.62;
+  font-family: "Barlow", sans-serif;
+  color: #7b8bad;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  color: #162542;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 5.6rem;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 3.2rem;
+  line-height: 1.125;
+}
+
+h3 {
+  font-size: 2.4em;
+  line-height: 1.16;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__content {
+  margin-right: 12.5rem;
+}
+
+.hero__title {
+  margin-bottom: 2.4rem;
+  font-size: 45px;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.hero__description {
+  color: #7b8bad;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.hero__link-second {
+  color: #7b8bad;
+}
+
+.hero__link-second:hover {
+  color: #ffffff;
+  background-color: #162542;
+}
+
+.hero__link-second:active {
+  background-color: #fff;
+  color: #162542;
+}
+
+.mechanical-keyboards {
+  margin-top: 2rem;
+}
+
+.keyboards__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.keyboard__content {
+  margin-left: 10rem;
+}
+
+.hkeyboard__content__title {
+  margin-bottom: 3rem;
+}
+
+.cards {
+  margin-top: 15rem;
+  margin-bottom: 12.6rem;
+}
+
+.cards__wrapper {
+  display: flex;
+  gap: 90px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 323px;
+}
+
+.cards__img {
+  margin-bottom: 4.8rem;
+}
+
+.card__title {
+  margin-bottom: 2.4rem;
+}
+
+.card__description {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.footer-description {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
